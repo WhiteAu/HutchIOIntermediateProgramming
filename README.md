@@ -20,6 +20,12 @@ https://teams.fhcrc.org/sites/HDC/HDC%20Wiki/Data%20Science/Setting%20Up%20Git.a
 Generally, regardless of whether you primarily interact with GitHub via a GUI, 
 *it is a good idea to learn at least your basic workflow in terms of the command line interface*
 
+The steps to pull this branch (Hello-World) down to your work environment of choice will look like the following:
+1) make a fork of HutchIOIntermediateProgramming to your personal GitHub Account
+2) make a local clone of your forked repository from step 1
+3) perform a *git fetch* operation to pull down the latest changes from your forked repository (normally referred to as origin)
+4) Create a new local branch for Hello-World: git checkout -b <name of your local branch> origin/Hello-World
+
 ## Connecting to Hutch Resources
 If you prefer, Hutch SciComp hosts a robust scientific computing cluster that can be accessed from within the Fred Hutch network
 Computing Resources at the Hutch:
