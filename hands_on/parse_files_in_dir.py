@@ -7,10 +7,14 @@ def parse_files_in_dir(directory_path, column_name):
     all_files = os.listdir(directory_path)
 
     for filename in all_files:
+        print("parsing file {}".format(filename))
+
         if filename.endswith(".csv"):
+            print("File was a CSV!")
             #Put your code here!
             pass
         if filename.endswith(".xls"):
+            print("File was an XLS!")
             # Put your code here!
             pass
         else:
