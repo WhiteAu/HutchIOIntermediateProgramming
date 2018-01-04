@@ -5,7 +5,7 @@ import pandas as pd
 
 from unittest.mock import patch, Mock
 
-class TestFileFunctions(unittest.TestCase):
+class TestUtilities(unittest.TestCase):
     def setUp(self):
         print("add universal setup here!")
 
