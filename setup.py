@@ -6,9 +6,9 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name='hdcgecco',
+    name='hutchiointmdtprogramming',
     version='0.1',
-    description='HDC Data Science for GECCO Initiative',
+    description='Hutch IO Intermediate Programming',
     long_description=read('README.md'),
     license='Apache 2.0',
     url='https://github.com/WhiteAu/HutchIOIntermediateProgramming/',
