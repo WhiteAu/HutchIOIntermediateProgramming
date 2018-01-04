@@ -11,11 +11,9 @@ def return_filetype_list(folderpath, filetype=".csv"):
     :return: a list of filename strings
     '''
     filelist = []
-    #directory = os.fsencode(folderpath)
 
     #Adding all the csv files from a folder into a list
     for file in os.listdir(folderpath):
-        #filename = os.fsdecode(file)
         if file.endswith(filetype):
             filelist.append(file)
     return filelist
